@@ -1,0 +1,54 @@
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #B2C9AB;
+  }
+  
+  #main {
+    text-align: center;
+  }
+
+  #gameName {
+    font-size: 24px;
+  }
+  
+  #player {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  #allBtn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 290px;
+    margin: 0 auto; 
+  }
+  
+  .btn {
+    width: calc(33.33% - 10px);
+    height: 80px;
+    width: 80px;
+    font-size: 40px;
+    margin: 5px;
+    color: #666A86;
+    border: 1px solid #ccc;
+    background-color: #E8DDB5;
+    box-shadow: 0 0 2px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #reset {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 9px;
+    background-color: #788AA3;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+   
